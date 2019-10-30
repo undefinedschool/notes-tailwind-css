@@ -40,6 +40,8 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 }
 ```
 
+## Componentes
+
 ## Eliminar CSS redundante
 
 Ver [Removing unused CSS](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
