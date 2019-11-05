@@ -54,7 +54,9 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 
 ## Componentes
 
-Ver [Components Examples](https://tailwindcss.com/components/)
+- [Extracting Components](https://tailwindcss.com/docs/extracting-components/)
+- [Extracting Reusable Components](https://tailwindcss.com/course/extracting-reusable-components/)
+- [Components Examples](https://tailwindcss.com/components/)
 
 ## Eliminar CSS redundante con `PurgeCSS`
 
