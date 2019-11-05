@@ -54,10 +54,12 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 
 ## Componentes
 
-
-
 Ver [Components Examples](https://tailwindcss.com/components/)
 
-## Eliminar CSS redundante
+## Eliminar CSS redundante con `PurgeCSS`
 
-Ver [Removing unused CSS](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
+- `npm install -g postcss-cli`
+- [How to setup Tailwind with PurgeCSS and PostCSS
+](https://flaviocopes.com/tailwind-setup/)
+- Ver [Designing with Tailwind CSS: Optimizing for Production with Purgecss
+](https://www.youtube.com/watch?v=bhoDwo24K5Q)
