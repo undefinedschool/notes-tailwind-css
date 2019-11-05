@@ -12,6 +12,7 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 
 - Ver la [documentación oficial](https://tailwindcss.com/docs/installation)
 - [Screencasts](https://tailwindcss.com/screencasts/)
+- [Why you don't need BEM with utility-first CSS](https://www.youtube.com/watch?v=ab8RePo5ZYU)
 - [Adam Wathan - Tailwind CSS Best Practice Patterns](https://www.youtube.com/watch?v=J_7_mnFSLDg)
 
 ## Setup
@@ -32,13 +33,11 @@ dist
  |--- compiled.css
 ```
 
-Luego, agregar las _directivas_ a nuestro archivo css base (`styles.css` en el diagrama de arriba), que luego compilaremos
+Luego, agregar las [_directivas_](https://tailwindcss.com/docs/functions-and-directives/) a nuestro archivo css base (`styles.css` en el diagrama de arriba), que luego compilaremos
 
 ```
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
 ```
 
@@ -65,3 +64,4 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 ](https://flaviocopes.com/tailwind-setup/)
 - Ver [Designing with Tailwind CSS: Optimizing for Production with Purgecss
 ](https://www.youtube.com/watch?v=bhoDwo24K5Q)
+- [Disabling unused utilities and variants](https://tailwindcss.com/docs/controlling-file-size#disabling-unused-utilities-and-variants)
