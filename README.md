@@ -68,3 +68,7 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 - Ver [Designing with Tailwind CSS: Optimizing for Production with Purgecss
 ](https://www.youtube.com/watch?v=bhoDwo24K5Q)
 - [Disabling unused utilities and variants](https://tailwindcss.com/docs/controlling-file-size#disabling-unused-utilities-and-variants)
+
+## Más recursos
+
+Ver [resources](https://tailwindcss.com/resources/)
