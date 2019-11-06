@@ -2,11 +2,21 @@
 
 [Tailwind](https://tailwindcss.com/) es un _framework_ no opinionado de CSS, que nos provee de _clases utilitarias_ para componer y usar a modo de bloques en nuestros maquetados, aplicando la filosofía de [CSS Funcional](https://github.com/dwyl/learn-tachyons#functional-css-is) o [Atomic CSS](https://www.youtube.com/watch?v=PcrzsCdoFoY). Funciona sobre [PostCSS](https://www.youtube.com/watch?v=bJShpMC7xFM).
 
-A diferencia de otros frameworks como [Bootstrap](https://getbootstrap.com/) ó [Bulma CSS](https://bulma.io/), Tailwind no posee componentes con estilos predefinidos, por lo cual no nos veremos en el problema de estar sobre-escribiendo estilos luego si buscamos realizar diseños más customizados. Lo que nos provee en cambio, son clases utilitarias que podemos utilizar y componer para crear nuevas clases y estas a su vez, para crear nuestros propios componentes y estilos.
+A diferencia de otros frameworks como [Bootstrap](https://getbootstrap.com/) ó [Bulma CSS](https://bulma.io/), **Tailwind no posee componentes con estilos predefinidos** (como _hero_, _button_, _card_, _navbar_, etc), por lo cual no nos veremos en el problema de estar sobre-escribiendo estilos luego si buscamos realizar diseños más customizados. Lo que nos provee en cambio, son clases utilitarias que podemos utilizar y componer para crear nuevas clases y estas a su vez, para crear nuestros propios componentes y estilos.
 
 Este [_paradigma_](https://css-tricks.com/lets-define-exactly-atomic-css/) no plantea construir componentes con nuestro CSS, sino clases muy pequeñas con un objetivo bien definido, es decir, llevar el [principio de responsabilidad única](https://en.wikipedia.org/wiki/Single_responsibility_principle) al CSS. 
 
 Para crear nuestros componentes, vamos a componer estas clases utilitarias (no estamos limitados a las que provee el framework, podemos extenderlas, modificarlas y agregar nuestras propias clases fácilmente) directamente en el HTML.
+
+## Características
+
+- [Utility-first](https://tailwindcss.com/docs/utility-first)
+- [Responsive Design](https://tailwindcss.com/docs/responsive-design)
+- [Pseudo-Clases](https://tailwindcss.com/docs/pseudo-class-variants)
+- [Base Styles](https://tailwindcss.com/docs/adding-base-styles)
+- [Extraer Componentes](https://tailwindcss.com/docs/extracting-components)
+- [Agregar nuevas clases utilitarias](https://tailwindcss.com/docs/adding-new-utilities)
+- [Funciones y Directivas](https://tailwindcss.com/docs/functions-and-directives)
 
 ## Guías y tutoriales
 
