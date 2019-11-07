@@ -53,7 +53,7 @@ dist
 
 Luego, agregar las [_directivas_](https://tailwindcss.com/docs/functions-and-directives/) a nuestro archivo css base (`styles.css` en el diagrama de arriba), que luego compilaremos
 
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
