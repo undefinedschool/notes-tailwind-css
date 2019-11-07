@@ -31,10 +31,14 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 
 ## Setup
 
-Primero debemos instalar el framework con _NPM_:
+```bash
+npm init -y
+```
+
+Instalar el framework con _NPM_ (el ejemplo incluye PostCSS y algunos plugins, pero podemos isntalar sólo `tailwindcss` si queremos):
 
 ```bash
-npm i tailwindcss
+npm i tailwindcss postcss-cli autoprefixer @fullhuman/postcss-purgecss cssnano
 ```
 
 Es recomendable definir una estructura de directorios donde separemos `src` (donde estará el css base) y `dist` (donde estará el CSS compilado)
@@ -57,8 +61,6 @@ Luego, agregar las [_directivas_](https://tailwindcss.com/docs/functions-and-dir
 
 Agregar al `package.json`, en la sección de `scripts`, un script para compilar y generar el CSS
 
-⭐️ **Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
-
 ### Ejemplo de script
 
 ```json
@@ -66,6 +68,28 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
   "build:css": "tailwind build src/styles.css -o dist/compiled.css"
 }
 ```
+
+### Crear `tailwind.config.js`
+
+```bash
+npx tailwind init
+```
+
+### Crear [`postcss.config.js`]
+
+- Ver [postcss-cli](https://github.com/postcss/postcss-cli)
+
+Ahora podemos modificar el script de build para que use `postcss-cli`
+
+```bash
+"scripts": {
+  "build:css": "tailwind build src/styles.css -o dist/compiled.css"
+}
+```
+
+## VSCode Plugin
+
+- ⭐️ **Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
 
 ## ⭐️ Componentes
 
