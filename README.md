@@ -78,6 +78,10 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 - Ejecutar `npx tailwind init` para generar el `tailwind.config.js`
 - Ver [Configuration](https://tailwindcss.com/docs/configuration/)
 
+## Extender Tailwind con nuevas clases
+
+- Ver [How to Extend Tailwind CSS](https://www.youtube.com/watch?v=HVRnRp26_MQ)
+
 ## Eliminar CSS redundante con `PurgeCSS`
 
 - `npm install -g postcss-cli`
@@ -87,6 +91,6 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 ](https://www.youtube.com/watch?v=bhoDwo24K5Q)
 - [Disabling unused utilities and variants](https://tailwindcss.com/docs/controlling-file-size#disabling-unused-utilities-and-variants)
 
-## Más recursos
+## Recursos (imágenes, ilustraciones, íconos, etc)
 
 Ver [resources](https://tailwindcss.com/resources/)
