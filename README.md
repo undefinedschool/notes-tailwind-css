@@ -23,9 +23,9 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 ## Guías y tutoriales
 
 - Ver la [documentación oficial](https://tailwindcss.com/docs/installation)
-- [Screencasts](https://tailwindcss.com/screencasts/)
+- ⭐️ [Screencasts](https://tailwindcss.com/screencasts/)
 - [Introduction to Tailwind CSS](https://www.youtube.com/watch?v=O3JhdXubAK8)
-- [Designing with Tailwind CSS](https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR)
+- ⭐️ [Designing with Tailwind CSS](https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR)
 - [Why you don't need BEM with utility-first CSS](https://www.youtube.com/watch?v=ab8RePo5ZYU)
 - [Adam Wathan - Tailwind CSS Best Practice Patterns](https://www.youtube.com/watch?v=J_7_mnFSLDg)
 
@@ -57,7 +57,7 @@ Luego, agregar las [_directivas_](https://tailwindcss.com/docs/functions-and-dir
 
 Agregar al `package.json`, en la sección de `scripts`, un script para compilar y generar el CSS
 
-**Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
+⭐️ **Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
 
 ### Ejemplo de script
 
@@ -67,15 +67,15 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 }
 ```
 
-## Componentes
+## ⭐️ Componentes
 
 - [Extracting Components](https://tailwindcss.com/docs/extracting-components/)
 - [Extracting Reusable Components](https://tailwindcss.com/course/extracting-reusable-components/)
 - [Components Examples](https://tailwindcss.com/components/)
 
-### [tailwindcomponents](https://tailwindcomponents.com/): repositorio de componentes comunitario
+### ⭐️ [tailwindcomponents](https://tailwindcomponents.com/): repositorio de componentes comunitario
 
-### [Tailwind Toolbox](https://www.tailwindtoolbox.com/): templates, componentes y recursos
+### ⭐️ [Tailwind Toolbox](https://www.tailwindtoolbox.com/): templates, componentes y recursos
 
 ## Custom config
 
@@ -86,7 +86,7 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 
 - Ver [How to Extend Tailwind CSS](https://www.youtube.com/watch?v=HVRnRp26_MQ)
 
-## Eliminar CSS redundante con `PurgeCSS`
+## ⭐️ Eliminar CSS redundante con `PurgeCSS`
 
 - `npm install -g postcss-cli`
 - [How to setup Tailwind with PurgeCSS and PostCSS
