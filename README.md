@@ -73,6 +73,11 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 - [Extracting Reusable Components](https://tailwindcss.com/course/extracting-reusable-components/)
 - [Components Examples](https://tailwindcss.com/components/)
 
+## Custom config
+
+- Ejecutar `npx tailwind init` para generar el `tailwind.config.js`
+- Ver [Configuration](https://tailwindcss.com/docs/configuration/)
+
 ## Eliminar CSS redundante con `PurgeCSS`
 
 - `npm install -g postcss-cli`
