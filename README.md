@@ -24,6 +24,7 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 
 - Ver la [documentación oficial](https://tailwindcss.com/docs/installation)
 - [Screencasts](https://tailwindcss.com/screencasts/)
+- [Introduction to Tailwind CSS](https://www.youtube.com/watch?v=O3JhdXubAK8)
 - [Designing with Tailwind CSS](https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR)
 - [Why you don't need BEM with utility-first CSS](https://www.youtube.com/watch?v=ab8RePo5ZYU)
 - [Adam Wathan - Tailwind CSS Best Practice Patterns](https://www.youtube.com/watch?v=J_7_mnFSLDg)
