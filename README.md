@@ -4,7 +4,7 @@
 
 # ✨ Tailwind CSS
 
-[Tailwind](https://tailwindcss.com/) es un _framework_ no opinionado de CSS, que nos provee de _clases utilitarias_ para componer y usar a modo de bloques en nuestros maquetados, aplicando la filosofía de [CSS Funcional](https://github.com/dwyl/learn-tachyons#functional-css-is) o [Atomic CSS](https://www.youtube.com/watch?v=PcrzsCdoFoY). 
+[Tailwind](https://tailwindcss.com/) es un _framework_ ([open-source](https://github.com/tailwindcss/tailwindcss)) no opinionado de CSS, que nos provee de _clases utilitarias_ para componer y usar a modo de bloques en nuestros maquetados, aplicando la filosofía de [CSS Funcional](https://github.com/dwyl/learn-tachyons#functional-css-is) o [Atomic CSS](https://www.youtube.com/watch?v=PcrzsCdoFoY). 
 
 Funciona como un _plugin_ de [PostCSS](https://www.youtube.com/watch?v=bJShpMC7xFM), por lo que podemos integrarlo fácilmente con otras herramientas muy útiles, como [autoprefixer](https://github.com/postcss/autoprefixer) ó [PurgeCSS](https://www.purgecss.com/).
 
