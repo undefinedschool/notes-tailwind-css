@@ -18,7 +18,7 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 
 - **No tenemos que pelear contra la especificidad del framework para redefinir estilos**
 - **Tenemos mucho control sobre la especificidad**: al utilizar siempre estilos basados en clases y el approach _funcional_, nuestra UI termina siendo mucho más predecible y consistente
-- **Descriptivo**: con leerel nombre de las clases entendemos qué está pasando
+- **Descriptivo**: con leer el nombre de las clases entendemos qué está pasando
 - Prácticamente no escribimos CSS
 - **Evitamos la duplicación de código** utilizando _clases utilitarias_
 - **Evitamos el _código zombie_**  usando plugins como [`purgecss`](https://github.com/undefinedschool/notes-tailwind-css#%EF%B8%8F-eliminar-css-redundante-con-purgecss)
