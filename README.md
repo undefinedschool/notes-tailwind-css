@@ -1,4 +1,8 @@
-# notes-tailwind-css
+> El siguiente contenido fue elaborado por [@_nhsz](https://twitter.com/_nhsz) como guía para las clases de [undefined school](https://twitter.com/undefinedSchool)
+
+> Son bienvenidos los _issues_ y _PRs_ para mejorar el contenido, corregir errores, etc
+
+# ✨ Tailwind CSS
 
 [Tailwind](https://tailwindcss.com/) es un _framework_ no opinionado de CSS, que nos provee de _clases utilitarias_ para componer y usar a modo de bloques en nuestros maquetados, aplicando la filosofía de [CSS Funcional](https://github.com/dwyl/learn-tachyons#functional-css-is) o [Atomic CSS](https://www.youtube.com/watch?v=PcrzsCdoFoY). 
 
@@ -9,6 +13,19 @@ A diferencia de otros frameworks como [Bootstrap](https://getbootstrap.com/) ó 
 Este [_paradigma_](https://css-tricks.com/lets-define-exactly-atomic-css/) no plantea construir componentes con nuestro CSS, sino clases muy pequeñas con un objetivo bien definido, es decir, llevar el [principio de responsabilidad única](https://en.wikipedia.org/wiki/Single_responsibility_principle) al CSS. 
 
 Para crear nuestros componentes, vamos a componer estas clases utilitarias (no estamos limitados a las que provee el framework, podemos extenderlas, modificarlas y agregar nuestras propias clases fácilmente) directamente en el HTML.
+
+## Beneficios
+
+- **No tenemos que pelear contra la especificidad del framework para redefinir estilos**
+- **Tenemos mucho control sobre la especificidad**: al utilizar siempre estilos basados en clases y el approach _funcional_, nuestra UI termina siendo mucho más predecible y consistente
+- **Descriptivo**: con leerel nombre de las clases entendemos qué está pasando
+- Prácticamente no escribimos CSS
+- **Evitamos la duplicación de código** utilizando _clases utilitarias_
+- **Evitamos el _código zombie_**  usando plugins como [`purgecss`](https://github.com/undefinedschool/notes-tailwind-css#%EF%B8%8F-eliminar-css-redundante-con-purgecss)
+- **Mobile-first, responsive design**: Tailwind cuenta con breakpoints predefinidos y es muy fácil aplicarlos a cualquier clase para tener [diseños totalmente _responsivos_](https://tailwindcss.com/docs/responsive-design/)
+- **Productividad**: por todos los ítems anteriores, [desarrollar interfaces con Tailwind termina resultando mucho más eficiente](https://medium.com/@johnpolacek/by-the-numbers-a-year-and-half-with-atomic-css-39d75b1263b4), **escribimos mucho menos código y resulta mucho más fácil de mantener**
+
+![](https://i.imgur.com/KZQyZtF.png)
 
 ## Características
 
@@ -92,6 +109,8 @@ Ahora podemos modificar el script de build para que use `postcss-cli`
 - ⭐️ **Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
 
 ## ⭐️ Componentes
+
+¿Qué pasa si nos encontramos [repitiendo ciertas combinaciones de clases continuamente](https://tailwindcss.com/docs/utility-first#maintainability-concerns)? Para evitar esto, podemos extraer los patrones de clases a **componentes**
 
 - [Extracting Components](https://tailwindcss.com/docs/extracting-components/)
 - [Extracting Reusable Components](https://tailwindcss.com/course/extracting-reusable-components/)
