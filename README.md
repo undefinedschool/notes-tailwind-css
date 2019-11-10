@@ -100,7 +100,7 @@ Ahora podemos modificar el script de build para que use `postcss-cli`
 
 ```bash
 "scripts": {
-  "build:css": "tailwind build src/styles.css -o dist/compiled.css"
+  "build:css": "postcss src/styles.css -o dist/compiled.css"
 }
 ```
 
