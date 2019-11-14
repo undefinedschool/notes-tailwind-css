@@ -92,7 +92,7 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 npx tailwind init
 ```
 
-### Crear [`postcss.config.js`]
+### Crear `postcss.config.js`
 
 - Ver [postcss-cli](https://github.com/postcss/postcss-cli)
 
