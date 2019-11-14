@@ -88,6 +88,8 @@ Agregar al `package.json`, en la sección de `scripts`, un script para compilar 
 
 ### Crear `tailwind.config.js`
 
+Este es el archivo que vamos a utilizar para sobreescribir (si es necesario) estilos default de Tailwind
+
 ```bash
 npx tailwind init
 ```
