@@ -107,7 +107,17 @@ const cssnano = require('cssnano')({
   preset: 'default'
 });
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['./dist/index.html']
+  content: ['./dist/*.html'],
+  extractors: [
+    {
+      extractor: class TailwindExtractor {
+        static extract(content) {
+          return content.match(/[A-z0-9-:\/]+/g) || [];
+        }
+      },
+      extensions: ['css', 'html']
+    }
+  ]
 });
 
 module.exports = {
