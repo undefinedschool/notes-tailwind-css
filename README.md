@@ -123,6 +123,18 @@ Ahora podemos modificar el script de build para que use `postcss-cli`
 }
 ```
 
+#### modo dev con `live-server`
+
+1. Instalar de forma _global_ el módulo [`live-server`](https://www.npmjs.com/package/live-server)
+2. Agregar el script `dev` a nuestro `package.json` para correr la aplicación en _modo desarrollo_
+
+```bash
+"scripts": {
+  "build:css": "postcss src/styles.css -o dist/compiled.css",
+  "dev": "live-server dist"
+}
+```
+
 ## VSCode Plugin
 
 - ⭐️ **Recomendado:** instalar el plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) en VSCode
