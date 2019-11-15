@@ -55,7 +55,7 @@ npm init -y
 Instalar el framework con _NPM_ (el ejemplo incluye PostCSS y algunos plugins, pero podemos isntalar sólo `tailwindcss` si queremos):
 
 ```bash
-npm i --save-dev tailwindcss postcss-cli autoprefixer @fullhuman/postcss-purgecss cssnano html-minifier
+npm i tailwindcss postcss-cli autoprefixer @fullhuman/postcss-purgecss cssnano
 ```
 
 Es recomendable definir una estructura de directorios donde separemos `src` (donde estará el css base) y `dist` (donde estará el CSS compilado)
