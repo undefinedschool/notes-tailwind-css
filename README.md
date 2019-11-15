@@ -65,8 +65,8 @@ src
  |--- index.html
  |--- styles.css
 dist
- |--- index.min.html
- |--- styles.min.css
+ |--- index.html
+ |--- styles.css
 ```
 
 Luego, agregar las [_directivas_](https://tailwindcss.com/docs/functions-and-directives/) a nuestro archivo css base (`styles.css` en el diagrama de arriba), que luego compilaremos
