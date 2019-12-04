@@ -173,4 +173,5 @@ Ahora podemos modificar el script de build para que use `postcss-cli`
 
 ## Recursos (imágenes, ilustraciones, íconos, etc)
 
-Ver [resources](https://tailwindcss.com/resources/)
+- Ver [resources](https://tailwindcss.com/resources/)
+- [Build with Tailwind](https://builtwithtailwind.com/)
