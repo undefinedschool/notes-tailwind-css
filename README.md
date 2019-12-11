@@ -52,7 +52,7 @@ Para crear nuestros componentes, vamos a componer estas clases utilitarias (no e
 npm init -y
 ```
 
-Instalar el framework con _NPM_ (el ejemplo incluye PostCSS y algunos plugins, pero podemos isntalar sólo `tailwindcss` si queremos):
+Instalar el framework con _NPM_ (el ejemplo incluye PostCSS y algunos plugins, pero podemos instalar sólo `tailwindcss` si queremos):
 
 ```bash
 npm i tailwindcss postcss-cli autoprefixer @fullhuman/postcss-purgecss cssnano
